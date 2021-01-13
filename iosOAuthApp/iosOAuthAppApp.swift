@@ -9,6 +9,8 @@ import SwiftUI
 
 @main
 struct iosOAuthAppApp: App {
+    static var ssoCenterApi = SSOCenterApi()
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
